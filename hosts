@@ -1,0 +1,7 @@
+#
+# ... Adicionar as linhas abaixo ao arquivo existente
+#
+
+127.0.0.1	localhost
+192.168.4.103	gitlab
+192.168.4.102   erpweb
