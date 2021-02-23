@@ -3,5 +3,6 @@
 #
 
 127.0.0.1	localhost
-192.168.4.103	gitlab
 192.168.4.102   erpweb
+192.168.4.103	gitlab
+192.168.4.104   jenkins

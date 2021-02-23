@@ -4,8 +4,8 @@
 # ... Adicionar as linhas abaixo ao arquivo existente, ajustando o nome das pastas e nome do usuário
 #
 
-//192.168.4.17/producao	/mnt/driveF	cifs	username=ricardo,password=123456,uid=ricardo,gid=ricardo	0	0
-//192.168.4.59/sistema	/mnt/driveG	cifs	username=ricardo,password=123456,uid=ricardo,gid=ricardo	0	0
-//192.168.4.16/documentos	/mnt/driveK	cifs	username=ricardo,password=123456,uid=ricardo,gid=ricardo	0	0
-//192.168.4.17/ferramentaria	/mnt/driveM	cifs	username=ricardo,password=123456,uid=ricardo,gid=ricardo	0	0
-
+//192.168.4.17/producao	        /mnt/driveF	        cifs	username=ricardo,password=123456,uid=ricardo,gid=ricardo 0 0
+//192.168.4.59/sistema	        /mnt/driveG	        cifs	username=ricardo,password=123456,uid=ricardo,gid=ricardo 0 0
+//192.168.4.16/documentos       /mnt/driveK	        cifs	username=ricardo,password=123456,uid=ricardo,gid=ricardo 0 0
+//192.168.4.17/ferramentaria    /mnt/driveM	        cifs	username=ricardo,password=123456,uid=ricardo,gid=ricardo 0 0
+//192.168.4.16/install          /mnt/driveInstall   cifs    username=ricardo,password=123456,uid=ricardo,gid=ricardo 0 0

@@ -8,6 +8,7 @@ sudo mkdir /mnt/driveG
 sudo mkdir /mnt/driveK
 sudo mkdir /mnt/driveM
 ```
+- Caso seja usado outros nomes, ajustar no arquivo /etc/fstab
 
 ## Liberar programas com o kLiberarProgramas ##
 
@@ -24,3 +25,27 @@ cd ~ && ln -s /mnt/driveG G
 ```
 sudo apt install remmina
 ```
+
+## Computadores windows na rede ###
+
+- Instalar winbind e libnss-winbind (ou equivalente)
+
+```
+sudo apt install winbind libnss-winbind
+```
+
+## Equivalência de programas ##
+- Team viewer v9 -> 
+- Tight VNC Viewer -> Remmina ou KRDC
+- Notepad++ -> notepadqq
+- OpenVPN -> openvpn command line
+- VPN Lufer -> openvpn script
+
+## Programas nativos iguais ##
+- Thunderbird
+- Spotify
+- Skype
+- Discord
+- IntelliJ
+- VS Code
+- git
