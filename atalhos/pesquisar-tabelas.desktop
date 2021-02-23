@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pesquisar Tabelas
+Comment=Kugel app para pesquisar tabelas
+Exec=/home/ricardo/bin/pesquisartabelas.sh
+Icon=/home/ricardo/Icones/search-database.png
+Categories=Application;Development;Java;IDE
+Version=1.0
+Type=Application
+Terminal=false
+StartupWMClass=pesquisartabelas-PesquisarTabelas

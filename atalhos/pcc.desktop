@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PCC Pervasive Control Center
+Comment=Pervasive SQL Client
+Exec=/home/ricardo/bin/pcc.sh
+Icon=/home/ricardo/Icones/pcc12.ico
+Categories=Application;Development;Java;IDE
+Version=1.0
+Type=Application
+Terminal=false
+StartupWMClass=PSQL Control Center

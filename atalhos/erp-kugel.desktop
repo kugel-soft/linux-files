@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ERP Kugel
+Comment=Sistema de Gestão Kugel
+Exec=/home/ricardo/bin/erp.sh
+Icon=/home/ricardo/Icones/KUGEL.ico
+Categories=Application;Development;Java;IDE
+Version=1.0
+Type=Application
+Terminal=false
+StartupWMClass=erpkugel-menu-ErpKugelFrame
