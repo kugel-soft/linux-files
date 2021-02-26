@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pathkugel="/home/ricardo/.kugel" #c:\kugel
+pathkugel="~/.kugel" #c:\kugel
 pathcomp="/mnt/driveF/comp/java" # f:\comp\java
 pathprog="/mnt/driveG/us1/kugel" #g:\us1\kugel
 PROGRAMA="KDAO"
@@ -258,4 +258,4 @@ put $PROGRAMA.jar
 quit
 END_SCRIPT
 
-read -p "Pressione uma tecla para sair.."
+read -p "Envio concluido. Pressione uma tecla para sair.."
