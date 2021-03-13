@@ -1,0 +1,8 @@
+table Icon
+  Caption: Apontamentos
+  Tooltip.Caption: Programa de apontamentos interno
+  Icon: /home/ricardo/Icones/ApontamentoKugel_Icon.png
+  Command[0]: /home/ricardo/bin/apontamento.sh
+  Width: 32
+  Height: 32
+end

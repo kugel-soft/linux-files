@@ -1,0 +1,8 @@
+table Icon
+  Caption: Konexão Remota
+  Tooltip.Caption: Kugel app para conexão remota aos clientes
+  Icon: /home/ricardo/Icones/if_desktop_18318.png
+  Command[0]: /home/ricardo/bin/konexaoremota.sh
+  Width: 32
+  Height: 32
+end

@@ -1,0 +1,8 @@
+table Icon
+  Caption: PCC
+  Tooltip.Caption: Pervasive Control Center
+  Icon: /home/ricardo/Icones/pcc12.png
+  Command[0]: /home/ricardo/bin/pcc.sh
+  Width: 32
+  Height: 32
+end

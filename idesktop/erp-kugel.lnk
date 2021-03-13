@@ -1,0 +1,8 @@
+table Icon
+  Caption: ERP Kugel
+  Tooltip.Caption: Sistema de Gestão Kugel
+  Icon: /home/ricardo/Icones/kugel-erp.png
+  Command[0]: /home/ricardo/bin/erp.sh
+  Width: 32
+  Height: 32
+end

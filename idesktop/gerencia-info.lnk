@@ -1,0 +1,8 @@
+table Icon
+  Caption: Gerencia Info
+  Tooltip.Caption: Gerenciador de informações Kugel
+  Icon: /home/ricardo/Icones/jar.png
+  Command[0]: /home/ricardo/bin/gerenciainfo.sh
+  Width: 32
+  Height: 32
+end

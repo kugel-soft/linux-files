@@ -1,0 +1,8 @@
+table Icon
+  Caption: Pesquisar tabelas
+  Tooltip.Caption: Dicionário de dados Kugel
+  Icon: /home/ricardo/Icones/search-database.png
+  Command[0]: /home/ricardo/bin/pesquisartabelas.sh
+  Width: 32
+  Height: 32
+end

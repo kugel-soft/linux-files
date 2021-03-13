@@ -1,0 +1,8 @@
+table Icon
+  Caption: eCase
+  Tooltip.Caption: Ferramenta CASE Kugel
+  Icon: /home/ricardo/Icones/Case.png
+  Command[0]: sh -c "/home/ricardo/bin/ecase.sh"
+  Width: 32
+  Height: 32
+end

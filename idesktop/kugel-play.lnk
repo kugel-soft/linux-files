@@ -1,0 +1,8 @@
+table Icon
+  Caption: Kugel Play
+  Tooltip.Caption: Chamar prograsmas Kugel
+  Icon: /home/ricardo/Icones/logo_esfera_2016.png
+  Command[0]: /home/ricardo/bin/kugelplay.sh
+  Width: 32
+  Height: 32
+end

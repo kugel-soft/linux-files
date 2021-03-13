@@ -1,0 +1,8 @@
+table Icon
+  Caption: Gerenciador Script
+  Tooltip.Caption: Gerenciador de script Kugel
+  Icon: /home/ricardo/Icones/jar.png
+  Command[0]: /home/ricardo/bin/gerenciadorscript.sh
+  Width: 32
+  Height: 32
+end
