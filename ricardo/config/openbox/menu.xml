@@ -28,6 +28,9 @@
   <item label="Thunderbird">
     <action name="Execute"><execute>thunderbird</execute></action>
   </item>
+  <item label="VS Code">
+    <action name="Execute"><execute>code</execute></action>
+  </item>
   <separator />
   <!-- This requires the presence of the 'obamenu' package to work -->
   <menu id="/Debian" />
