@@ -1,0 +1,3 @@
+### Ambiente gráfico ###
+
+- Openbox

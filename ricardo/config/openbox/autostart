@@ -1,0 +1,27 @@
+# Start pulseaudio deamon
+(sleep 1s && start-pulseaudio-x11 && sleep 2s && volumeicon) &
+
+# composite manager
+xcompmgr &
+
+# Network applet
+(sleep 2 && nm-applet) &
+
+# Panel
+(sleep 1 && tint2) &
+
+# Desktop icons
+(sleep 1 && idesk) &
+
+# Notifications
+/usr/lib/notification-daemon/notification-daemon &
+
+# Numlock
+numlockx &
+
+# file manager
+(sleep 1 && thunar --daemon) &
+
+# Wallpaper
+nitrogen --restore &
+

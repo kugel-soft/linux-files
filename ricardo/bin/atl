@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#-hold
+xterm -geometry 200x25 ~/bin/atualizarWeb.sh 

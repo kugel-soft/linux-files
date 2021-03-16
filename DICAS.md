@@ -93,3 +93,6 @@ sudo apt install meld
 - flameshot - tirar print e editar
 - pavucontrol - controle de volume (se necessário)
 - geany - editor de texto simples e eficaz (com vários plugins)
+- stacer - monitor de recursos e processos avançados
+- ristretto - navegador e visualizador de imagens
+- droidcam - usar o celular como webcam (iOS e Android)

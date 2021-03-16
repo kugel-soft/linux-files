@@ -1,0 +1,7 @@
+
+export PATH=$PATH:~/Projetos/apache-maven-3.6.1/bin:~/bin
+export WILDFLY_HOME=~/Projetos/wildfly-9.0.1.Final
+export DRIVE_F=/mnt/driveF
+export DRIVE_G=/mnt/driveG
+export DRIVE_K=/mnt/driveK
+export DRIVE_M=/mnt/driveM

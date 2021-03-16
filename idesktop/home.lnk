@@ -1,0 +1,11 @@
+table Icon
+  Caption: Home
+  Tooltip.Caption: Home
+  Icon: /home/ricardo/Icones/folder.png
+  Width: 32
+  Heigth: 32
+  X: 27
+  Y: 19
+  Command[0]: thunar ~
+end
+
