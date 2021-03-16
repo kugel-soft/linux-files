@@ -88,3 +88,8 @@ sudo apt install meld
 - IntelliJ
 - VS Code
 - git
+
+### Dicas de programas ###
+- flameshot - tirar print e editar
+- pavucontrol - controle de volume (se necessário)
+- geany - editor de texto simples e eficaz (com vários plugins)

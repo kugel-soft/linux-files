@@ -1,8 +1,0 @@
-table Icon
-  Caption: IntelliJ
-  Tooltip.Caption: IDE
-  Icon: /home/ricardo/Downloads/idea-IC-203.7148.57/bin/idea.png
-  Command[0]: /home/ricardo/Downloads/idea-IC-203.7148.57/bin/idea.sh
-  Width: 32
-  Height: 32
-end
