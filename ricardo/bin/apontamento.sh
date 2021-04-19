@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echo "KApontamento"
-
+# Variáveis
 DIR=/mnt/driveF/util/Apontamento
+USUARIO=ricard
+JAVA=~/Projects/jdk-8u282-ojdkbuild-linux-x64/bin/java
 
 cp -u $DIR/lib/antlr-2.7.7.jar ~/.kugel/lib/
 cp -u $DIR/lib/c3p0-0.9.2.1.jar ~/.kugel/lib/
@@ -40,6 +41,5 @@ cp -u /mnt/driveF/util/Apontamento/KApontamento.properties ~/.kugel
 cp -u /mnt/driveF/util/Apontamento/KApontamento.jar ~/.kugel
 
 cd ~/.kugel
-#/opt/jdk/jdk1.8.0_161/bin/java -Dfile.encoding=windows-1252 -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -jar KApontamento.jar ricard
 
-/opt/jdk/jdk1.8.0_161/bin/java -Dfile.encoding=windows-1252 -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -jar KApontamento.jar ricard
+$JAVA -Dfile.encoding=windows-1252 -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -jar KApontamento.jar $USUARIO

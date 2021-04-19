@@ -6,32 +6,81 @@
                 file:///usr/share/openbox/menu.xsd">
 
 <menu id="root-menu" label="Openbox 3">
-  <item label="Terminal">
+  <item label="Terminal" icon="/usr/local/share/icons/Moka/32x32@2x/apps/terminal.png">
     <action name="Execute"><execute>sakura -c 140</execute></action>
   </item>
-  <item label="Firefox ESR">
+  <item label="Firefox ESR" icon="/usr/local/share/icons/Moka/32x32@2x/apps/firefox.png">
     <action name="Execute"><execute>firefox</execute></action>
   </item>
-  <separator />
-  <item label="Discord">
-    <action name="Execute"><execute>discord</execute></action>
+  <item label="Task Manager" icon="/usr/share/icons/hicolor/48x48/apps/org.xfce.taskmanager.png">
+    <action name="Execute"><execute>xfce4-taskmanager</execute></action>
   </item>
-  <item label="Skype">
-    <action name="Execute"><execute>skypeforlinux</execute></action>
-  </item>
-  <item label="Stacer">
-    <action name="Execute"><execute>stacer</execute></action>
-  </item>
-  <item label="Telegram">
-    <action name="Execute"><execute>telegram-desktop</execute></action>
-  </item>
-  <item label="Thunderbird">
-    <action name="Execute"><execute>thunderbird</execute></action>
-  </item>
-  <item label="VS Code">
-    <action name="Execute"><execute>code</execute></action>
-  </item>
-  <separator />
+  <menu id="KUGEL" label="Kugel" icon="/home/ricardo/Projects/linux-files/imagens/logo_esfera_2016.png">
+    <item label="Apontamento" icon="/home/ricardo/Projects/linux-files/imagens/ApontamentoKugel_Icon.png">
+      <action name="Execute"><execute>/home/ricardo/bin/apontamento.sh</execute></action>
+    </item>
+    <item label="Calculator" icon="/usr/share/icons/gnome/32x32/apps/gnome-calculator.png">
+      <action name="Execute"><execute>gnome-calculator</execute></action>
+    </item>
+    <item label="Discord" icon="/usr/share/discord/discord.png">
+      <action name="Execute"><execute>discord</execute></action>
+    </item>
+    <item label="eCase" icon="/home/ricardo/Projects/linux-files/imagens/KUGEL.ico">
+      <action name="Execute"><execute>sh -c "/home/ricardo/bin/ecase.sh"</execute></action>
+    </item>
+    <item label="ERP Kugel" icon="/home/ricardo/Projects/linux-files/imagens/KUGEL.ico">
+      <action name="Execute"><execute>/home/ricardo/bin/erp.sh</execute></action>
+    </item>
+    <item label="Gerador Web" icon="/home/ricardo/Projects/linux-files/imagens/jar.png">
+      <action name="Execute"><execute>/home/ricardo/bin/geradorweb.sh</execute></action>
+    </item>
+    <item label="Gerencia Info" icon="/home/ricardo/Projects/linux-files/imagens/jar.png">
+      <action name="Execute"><execute>/home/ricardo/bin/gerenciainfo.sh</execute></action>
+    </item>
+    <item label="Gerenciador de Script SQL" icon="/home/ricardo/Projects/linux-files/imagens/jar.png">
+      <action name="Execute"><execute>/home/ricardo/bin/gerenciadorscript.sh</execute></action>
+    </item>
+    <item label="IntelliJ IDEA" icon="/home/ricardo/Downloads/idea-IC-203.7717.56/bin/idea.png">
+      <action name="Execute"><execute>/home/ricardo/Downloads/idea-IC-203.7717.56/bin/idea.sh</execute></action>
+    </item>
+    <item label="Jasper Studio 6.8.0" icon="/home/ricardo/Downloads/TIB_js-studiocomm_6.8.0/icon.xpm">
+      <action name="Execute"><execute>/home/ricardo/Downloads/TIB_js-studiocomm_6.8.0/runjss.sh</execute></action>
+    </item>
+    <item label="K Source Code" icon="/home/ricardo/Projects/linux-files/imagens/jar.png">
+      <action name="Execute"><execute>/home/ricardo/bin/kjavacode.sh</execute></action>
+    </item>
+    <item label="Kugel Play" icon="/home/ricardo/Projects/linux-files/imagens/logo_esfera_2016.png">
+      <action name="Execute"><execute>/home/ricardo/bin/kugelplay.sh</execute></action>
+    </item>
+    <item label="Konexão Remota" icon="/home/ricardo/Projects/linux-files/imagens/if_desktop_18318.png">
+      <action name="Execute"><execute>/home/ricardo/bin/konexaoremota.sh</execute></action>
+    </item>
+    <item label="Net Beans IDE 8.2" icon="/home/ricardo/netbeans-8.2/nb/netbeans.png">
+      <action name="Execute"><execute>/home/ricardo/netbeans-8.2/bin/netbeans</execute></action>
+    </item>
+    <item label="Pervasive 13" icon="/home/ricardo/Projects/linux-files/imagens/PCC.png">
+      <action name="Execute"><execute>/home/ricardo/bin/pcc.sh</execute></action>
+    </item>
+    <item label="Skype" icon="/usr/share/icons/hicolor/32x32/apps/skypeforlinux.png">
+      <action name="Execute"><execute>skypeforlinux</execute></action>
+    </item>
+    <item label="Stacer" icon="/usr/share/icons/hicolor/32x32/apps/stacer.png">
+      <action name="Execute"><execute>stacer</execute></action>
+    </item>
+    <item label="Task Timer" icon="/home/ricardo/Projects/linux-files/imagens/timer.png">
+      <action name="Execute"><execute>/home/ricardo/bin/tasktimer.sh</execute></action>
+    </item>
+    <item label="Telegram" icon="/usr/share/icons/hicolor/32x32/apps/telegram.png">
+      <action name="Execute"><execute>telegram-desktop</execute></action>
+    </item>
+    <item label="Thunderbird" icon="/usr/share/icons/hicolor/32x32/apps/thunderbird.png">
+      <action name="Execute"><execute>thunderbird</execute></action>
+    </item>
+    <item label="Visual Studio Code" icon="/usr/share/pixmaps/com.visualstudio.code.png">
+      <action name="Execute"><execute>code</execute></action>
+    </item>
+  </menu>
+
   <!-- This requires the presence of the 'obamenu' package to work -->
   <menu id="/Debian" />
   <separator />
@@ -53,16 +102,17 @@
   <separator />
   <item label="Reboot">
     <action name="Execute">
-      <command>sudo /sbin/shutdown -r now</command>
+      <command>systemctl reboot</command>
       <prompt>Reboot?</prompt>
     </action>
   </item>
-  <item label="Shutdown">
+  <item label="Poweroff">
     <action name="Execute">
-      <command>sudo /sbin/shutdown -h now</command>
+      <command>systemctl poweroff</command>
       <prompt>Shutdown?</prompt>
     </action>
   </item>
+  
 </menu>
 
 </openbox_menu>

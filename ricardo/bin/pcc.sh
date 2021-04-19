@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gksu /usr/local/psql/bin/pcc
+pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY DBUS_SESSION_BUS_ADDRESS=$DBUS_SESSION_BUS_ADDRESS /usr/local/psql/bin/pcc

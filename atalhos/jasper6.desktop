@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Jasper Studio 6.8.0
+Comment=Designer de relatórios Java
+Exec=/home/ricardo/Downloads/TIB_js-studiocomm_6.8.0/runjss.sh
+Icon=/home/ricardo/Downloads/TIB_js-studiocomm_6.8.0/icon.xpm
+Categories=Application;Development;Java;IDE
+Version=1.0
+Type=Application
+Terminal=false
+StartupWMClass=

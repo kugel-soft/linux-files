@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gerador de Programas Web
+Comment=Gerador de Programas Web
+Exec=/home/ricardo/bin/geradorweb.sh
+Icon=/home/ricardo/Projects/linux-files/imagens/jar.png
+Categories=Application;Development;Java;IDE
+Version=1.0
+Type=Application
+Terminal=false
+StartupWMClass=

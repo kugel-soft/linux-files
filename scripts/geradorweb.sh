@@ -1,6 +1,23 @@
 #!/bin/bash
 
-cd ~/.kugel/GeradorProgramasWeb/
+cd ~/.kugel
 
-/opt/jdk/jdk1.8.0_161/bin/java -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -jar GeradorProgramasWeb-Linux.jar
-exit
+DIR="GeradorProgramasWeb"
+DRIVEF=/mnt/driveF
+
+if [ ! -d $DIR ]; then
+	mkdir $DIR
+	cd $DIR
+	cp -r $DRIVEF/util/GeradorProgramasWeb/lib .
+	cp $DRIVEF/util/GeradorProgramasWeb/GeradorProgramasWeb.properties .
+	cp $DRIVEF/util/GeradorProgramasWeb/log4j.properties .
+else
+	cd $DIR
+fi
+
+cp $DRIVEF/util/GeradorProgramasWeb/GeradorProgramasWeb-*.jar .
+
+JAVA=~/Projects/jdk-8u282-ojdkbuild-linux-x64/bin/java
+
+$JAVA -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -jar GeradorProgramasWeb-*.jar
+

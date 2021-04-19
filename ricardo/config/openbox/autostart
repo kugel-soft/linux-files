@@ -4,14 +4,11 @@
 # composite manager
 xcompmgr &
 
-# Network applet
-(sleep 2 && nm-applet) &
-
 # Panel
 (sleep 1 && tint2) &
 
 # Desktop icons
-(sleep 1 && idesk) &
+# (sleep 1 && idesk) &
 
 # Notifications
 /usr/lib/notification-daemon/notification-daemon &
@@ -20,7 +17,10 @@ xcompmgr &
 numlockx &
 
 # file manager
-(sleep 1 && thunar --daemon) &
+#(sleep 1 && thunar --daemon) &
+
+# Policy Kit
+(sleep 1 && /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1) &
 
 # Wallpaper
 nitrogen --restore &
