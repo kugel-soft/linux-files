@@ -9,8 +9,8 @@
   <item label="Terminal" icon="/usr/local/share/icons/Moka/32x32@2x/apps/terminal.png">
     <action name="Execute"><execute>sakura -c 140</execute></action>
   </item>
-  <item label="Firefox ESR" icon="/usr/local/share/icons/Moka/32x32@2x/apps/firefox.png">
-    <action name="Execute"><execute>firefox</execute></action>
+  <item label="Firefox Dev" icon="/opt/firefox/browser/chrome/icons/default/default128.png">
+    <action name="Execute"><execute>/opt/firefox/firefox</execute></action>
   </item>
   <item label="Task Manager" icon="/usr/share/icons/hicolor/48x48/apps/org.xfce.taskmanager.png">
     <action name="Execute"><execute>xfce4-taskmanager</execute></action>
@@ -63,6 +63,9 @@
     </item>
     <item label="Skype" icon="/usr/share/icons/hicolor/32x32/apps/skypeforlinux.png">
       <action name="Execute"><execute>skypeforlinux</execute></action>
+    </item>
+    <item label="Squirrel SQL" icon="/home/ricardo/squirrel-sql-4.2.0/icons/acorn.png">
+      <action name="Execute"><execute>/home/ricardo/squirrel-sql-4.2.0/squirrel-sql.sh</execute></action>
     </item>
     <item label="Stacer" icon="/usr/share/icons/hicolor/32x32/apps/stacer.png">
       <action name="Execute"><execute>stacer</execute></action>
